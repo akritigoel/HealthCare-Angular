@@ -1,0 +1,38 @@
+<br>
+<form class="form-inline">
+  <div>
+      <label for="centerId"><b>Enter your Center Id</b></label>
+      <input class="form-control" type="text" size="7" placeholder="Enter id" id = "centerId"  required >
+      
+      <button (click)="getInputValue()">View</button>
+  </div>
+</form>
+<br>
+  
+  <br>
+<div class="col-md-6">
+    <h2> Center Details</h2>
+
+<table class="table table-primary table-hover col-md-8 mx-auto mt-3" >
+    <thead class="thead-dark">
+        <th>Center Id</th>
+        <th>Center Name</th>
+        <th>Center Address</th>
+        <th>Contact Number</th>
+        
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let c of centers; index as j " >
+          
+          <td class="hidden">{{c.centerId}}</td>
+          <td>{{c.centerName}}</td>
+          <td>{{c.centerAddress}}</td>
+          <td>{{c.contactNumber}}</td>
+          
+        </tr>
+        </tbody>
+
+ </table>   
+ 
+     

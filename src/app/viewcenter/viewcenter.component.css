@@ -1,0 +1,39 @@
+.col-md-6{
+   background-color: blanchedalmond;
+}
+
+.form-inline{
+   background-color: cornsilk;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    width: 500px; 
+    border-width: 8px;
+       margin-top: 60px;
+       border-style: solid;
+       border-collapse: collapse;
+       position: center;
+       margin-bottom: 200px;
+     
+ }
+ form { display: flex; }
+
+ button{
+   margin-left: 10px;
+   background-color: gainsboro;
+}
+
+
+ th, td {
+    border-bottom: 1px solid #ddd;
+    border: 1px solid;
+  }
+
+  input{
+   position: relative;
+   margin-left: 20px;
+   width: 200px;
+   flex-grow: 1;
+}

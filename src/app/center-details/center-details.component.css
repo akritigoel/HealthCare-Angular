@@ -1,0 +1,9 @@
+.card-body{
+    width:1200px;
+    margin:auto;
+    background-color: bisque;
+}
+
+label{
+    color: green;
+}
